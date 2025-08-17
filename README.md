@@ -151,7 +151,11 @@ view.setBackground(bg);
 
 ## 📷 Preview
 
+![Preview](https://github.com/mrslau/Android-AIDE-G2Preview_Fillet/blob/main/demo/Screenshot_20250817_074203.jpg)
 
+![Preview](https://github.com/mrslau/Android-AIDE-G2Preview_Fillet/blob/main/demo/Screenshot_20250817_074206.jpg)
+
+![Preview](https://github.com/mrslau/Android-AIDE-G2Preview_Fillet/blob/main/demo/Screenshot_20250817_074222.jpg)
 
 ---
 
