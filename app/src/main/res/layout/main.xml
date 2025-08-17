@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+	<com.G2Preview.iGsd.ui.SquareLinearLayout
+        android:id="@+id/preview_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+		android:layout_margin="20dp"
+		>
+    <!-- 预览区域（强制宽高比的容器 + 里面一个可设置背景的 View） -->
+    <com.G2Preview.iGsd.ui.AspectRatioLayout
+        android:id="@+id/aspect_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+		<com.G2Preview.iGsd.ui.BaselineOverlay
+			android:id="@+id/baseline_overlay"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="gone" />
+        <View
+            android:id="@+id/preview_shape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+		
+		
+    </com.G2Preview.iGsd.ui.AspectRatioLayout>
+	</com.G2Preview.iGsd.ui.SquareLinearLayout>
+    <!-- circleFraction -->
+    <TextView
+        android:id="@+id/tv_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="circleFraction=0.50"
+        android:paddingTop="5dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sb_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        />
+
+    <!-- cornerRadius -->
+    <TextView
+        android:id="@+id/tv_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cornerRadius=120px"
+        android:paddingTop="5dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sb_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <!-- extendedFraction -->
+    <TextView
+        android:id="@+id/tv_extended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="extendedFraction=0.20"
+        android:paddingTop="5dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sb_extended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        />
+
+    <!-- aspectRatio -->
+    <TextView
+        android:id="@+id/tv_aspect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aspectRatio=2.00"
+        android:paddingTop="5dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sb_aspect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reset"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="10dp"/>
+	
+	<com.google.android.material.button.MaterialButton
+		android:id="@+id/btn_toggle_baseline"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Show baseline"
+		android:layout_marginTop="8dp" />
+</LinearLayout>
+

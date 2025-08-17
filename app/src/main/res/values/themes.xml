@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 你的配色/字体可继续在这里配置 -->
+    </style>
+</resources>
