@@ -3,7 +3,7 @@
 
 # Android-AIDE+ \[G1 / G2 / G3 Smooth Corner] 
 
-# Imitation [Ios Or Android]
+**Imitation [Ios Or Android]**
 
 **An Android custom library supporting G1/G2/G3 smooth corner algorithms, helping developers achieve fluid rounded rectangles / capsules.**
 
