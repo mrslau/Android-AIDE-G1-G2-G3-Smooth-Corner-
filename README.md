@@ -5,6 +5,11 @@
 
 **Imitation [Ios Or Android]**
 
+# 🔥Demo Download APK Link
+[Download APK](https://github.com/mrslau/Android-AIDE-G1-G2-G3-Smooth-Corner-/blob/main/demo/G2Preview_1.0.apk)
+
+
+
 **An Android custom library supporting G1/G2/G3 smooth corner algorithms, helping developers achieve fluid rounded rectangles / capsules.**
 
 Features:
